@@ -1,12 +1,12 @@
 name: release
 on:
   push:
-    branches: [main]
+    branches: [main, master]
 
   workflow_dispatch:
 
 jobs:
-  build:
+  release:
     name: Running...
     if:
       "!contains(toJSON(github.event.commits.*.message), 'chore(release):') &&
@@ -44,12 +44,6 @@ jobs:
       - name: 🧩 Install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn install --prefer-offline --frozen-lockfile
-
-      - name: 📋 Yarn Lock Changes
-        uses: Simek/yarn-lock-changes@main
-        with:
-          updateComment: 'true'
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: ✏️ Lint
         run: yarn lint
