@@ -1,0 +1,48 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "react-app",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "rules": {
+    "react/jsx-boolean-value": 0,
+    "react/prop-types": 0,
+    "react/no-adjacent-inline-elements": "off",
+    "complexity": ["error", 15],
+    "valid-jsdoc": ["warn"],
+    "no-bitwise": "off",
+    "consistent-return": "off",
+    "no-negated-condition": "off",
+    "arrow-parens": "error",
+    "generator-star-spacing": "off",
+    "no-console": "warn",
+    "no-eval": "error",
+    "no-debugger": "warn",
+    "no-unused-vars": "error",
+    "eqeqeq": "off",
+    "import/no-useless-path-segments": "off",
+    "no-eq-null": "off",
+    "react/jsx-indent": "off"
+  }
+}

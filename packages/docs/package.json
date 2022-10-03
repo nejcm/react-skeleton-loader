@@ -1,0 +1,41 @@
+{
+  "name": "@nejcm/react-skeleton-loader-docs",
+  "version": "1.0.0",
+  "author": "Nejc Mursic <nmursi2@gmail.com> (https://github.com/nejcm)",
+  "description": "React skeleton loader that allows customization with some predefined templates.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nejcm/react-skeleton-loader"
+  },
+  "scripts": {
+    "clean": "rimraf .docz && docz clean",
+    "dev": "npm run clean && docz dev",
+    "build": "npm run clean && docz build",
+    "docz:serve": "docz build && docz serve",
+    "format": "echo 'Noop'",
+    "test": "echo 'Noop'",
+    "lint": "echo 'Noop'",
+    "semantic-release": "echo 'Noop'",
+    "validate": "echo 'Noop'",
+    "setup": "echo 'Noop'"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "@nejcm/docz-theme-extended": "^2.1.0",
+    "docz": "~2.4.0",
+    "eslint": "7.19.0",
+    "gh-pages": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "gatsby-cli": "^3.14.2"
+  },
+  "resolutions": {
+    "babel-eslint": "10.1.0",
+    "eslint": "7.19.0",
+    "gatsby-cli": "^3.14.2"
+  }
+}

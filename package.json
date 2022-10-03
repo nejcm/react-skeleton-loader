@@ -1,0 +1,33 @@
+{
+  "author": "Nejc Mursic <nmursi2@gmail.com> (https://github.com/nejcm)",
+  "description": "React skeleton loader that allows customization with some predefined templates.",
+  "private": true,
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "format": "yarn workspaces run format",
+    "docs:dev": "yarn workspace @nejcm/react-skeleton-loader-docs dev",
+    "docs:build": "yarn workspace @nejcm/react-skeleton-loader-docs build",
+    "test": "yarn workspaces run test",
+    "lint": "yarn workspaces run lint",
+    "build": "yarn workspaces run build",
+    "semantic-release": "yarn workspaces run semantic-release",
+    "validate": "yarn workspaces run validate",
+    "setup": "yarn install && yarn validate"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
