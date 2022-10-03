@@ -16,7 +16,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]
+[![PRs Welcome][prs-badge]][prs]
 
 [![Watch on GitHub][github-watch-badge]][github-watch]
 [![Star on GitHub][github-star-badge]][github-star]
@@ -137,10 +137,8 @@ Reach out to us at one of the following places:
 [all-contributors-badge]: https://img.shields.io/badge/all_contributors-1-orange.svg
 [all-contributors]: https://github.com/all-contributors/all-contributors
 [bugs]: https://github.com/nejcm/react-skeleton-loader/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Acreated-desc
-[build-badge]: https://github.com/nejcm/react-skeleton-loader/workflows/ci/badge.svg?branch=master
-[build]: https://github.com/nejcm/react-skeleton-loader/actions?query=workflow%3Aci
-[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg
-[coc]: https://github.com/nejcm/react-skeleton-loader/blob/master/CODE_OF_CONDUCT.md
+[build-badge]: https://github.com/nejcm/react-skeleton-loader/actions/workflows/release.yml/badge.svg?branch=master
+[build]: https://github.com/nejcm/react-skeleton-loader/actions/workflows/release.yml
 [coverage-badge]: https://img.shields.io/codecov/c/github/nejcm/react-skeleton-loader.svg
 [coverage]: https://codecov.io/github/nejcm/react-skeleton-loader
 [docs-link]: https://nejcm.github.io/react-skeleton-loader/
