@@ -7,7 +7,7 @@ import {Hint} from '@nejcm/docz-theme-extended';
 
 # Installation
 
-React skeleton supports styled-components and emotion.
+React skeleton loader.
 
 ## Peer dependencies
 
@@ -20,11 +20,7 @@ have them installed in your project.
 </Hint>
 
 ```bash
-# for styled-components
-$ npm install react react-dom styled-components --save
-
-# for emotion
-$ npm install react react-dom @emotion/styled @emotion/core --save
+$ npm install react react-dom --save
 ```
 
 ## Package
@@ -33,28 +29,18 @@ Install the latest version of React skeleton by running the following command in
 your project's root directory:
 
 ```bash
-# for styled-components
 $ npm install @nejcm/react-skeleton-loader --save
-
-# for emotion
-$ npm install @nejcm/react-skeleton-loader-emotion --save
 ```
 
 ## Usage
 
 ```jsx
 import React from 'react';
-// for styled-components
-import Skeleton, {Card, Comment} from '@nejcm/react-skeleton-loader';
-// for emotion
-import Skeleton, {Card, Comment} from '@nejcm/react-skeleton-loader-emotion';
+import {Skeleton, Card, Comment} from '@nejcm/react-skeleton-loader';
 
 const YourComponent = () => {
   return (
-    <Skeleton>
-      <Skeleton.Rectangle height={20} />
-      <Skeleton.Circle width={40} height={40} />
-    </Skeleton>
+    <Skeleton width={40} height={40} style={{ border: '1px solid' }} />
   );
 };
 
