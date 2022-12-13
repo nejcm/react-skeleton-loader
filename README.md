@@ -1,3 +1,6 @@
+## This repository was moved to [react-skeleton-loader](https://github.com/nejcm/react-skeleton-loader).
+
+
 # ⌛ React skeleton loader
 
 <blockquote>React skeleton loader that allows customization with some predefined templates.</blockquote>
