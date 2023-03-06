@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/nejcm/react-skeleton-loader/compare/v1.0.0...v1.0.1) (2023-03-06)
+
+
+### Bug Fixes
+
+* lint issues ([5715854](https://github.com/nejcm/react-skeleton-loader/commit/5715854233050fbb1b56883632e4f705b4c9dab7))
+* package order ([158d167](https://github.com/nejcm/react-skeleton-loader/commit/158d167f018176c48318a3e2be5ed8472065a402))
+* release ([5da2fea](https://github.com/nejcm/react-skeleton-loader/commit/5da2fea50d6bc55ca2dd5a94562ad45510eab6dd))
+
 # 1.0.0 (2022-10-03)
 
 
