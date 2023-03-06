@@ -7,7 +7,7 @@ types/
 coverage/
 
 # production
-build/
+
 dist/
 
 # misc

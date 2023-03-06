@@ -13,6 +13,7 @@
     "format": "yarn workspaces run format",
     "docs:start": "yarn workspace @nejcm/react-skeleton-loader-docs start",
     "docs:build": "yarn workspace @nejcm/react-skeleton-loader-docs build",
+    "docs:serve": "yarn workspace @nejcm/react-skeleton-loader-docs serve",
     "test": "yarn workspaces run test",
     "lint": "yarn workspaces run lint",
     "build": "yarn workspaces run build",
