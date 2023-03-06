@@ -1,0 +1,25 @@
+{
+  "unversionedId": "api/templates/Comment",
+  "id": "api/templates/Comment",
+  "title": "Comment",
+  "description": "Specification",
+  "source": "@site/docs/api/templates/Comment.mdx",
+  "sourceDirName": "api/templates",
+  "slug": "/api/templates/Comment",
+  "permalink": "/react-skeleton-loader/api/templates/Comment",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Comment"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Card",
+    "permalink": "/react-skeleton-loader/api/templates/Card"
+  },
+  "next": {
+    "title": "Form",
+    "permalink": "/react-skeleton-loader/api/templates/Form"
+  }
+}

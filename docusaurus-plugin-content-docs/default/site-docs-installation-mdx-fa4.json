@@ -1,0 +1,28 @@
+{
+  "unversionedId": "installation",
+  "id": "installation",
+  "title": "Installation",
+  "description": "React skeleton loader.",
+  "source": "@site/docs/installation.mdx",
+  "sourceDirName": ".",
+  "slug": "/installation",
+  "permalink": "/react-skeleton-loader/installation",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "name": "Installation",
+    "route": "/installation",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/react-skeleton-loader/"
+  },
+  "next": {
+    "title": "API",
+    "permalink": "/react-skeleton-loader/category/api"
+  }
+}

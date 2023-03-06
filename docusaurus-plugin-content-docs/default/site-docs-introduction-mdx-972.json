@@ -1,0 +1,25 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Introduction",
+  "description": "React Skeleton Loader is a",
+  "source": "@site/docs/introduction.mdx",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/react-skeleton-loader/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "name": "Introduction",
+    "sidebar_position": 1,
+    "id": "intro",
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Installation",
+    "permalink": "/react-skeleton-loader/installation"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "API",
+  "slug": "/category/api",
+  "permalink": "/react-skeleton-loader/category/api",
+  "navigation": {
+    "previous": {
+      "title": "Installation",
+      "permalink": "/react-skeleton-loader/installation"
+    },
+    "next": {
+      "title": "Skeleton",
+      "permalink": "/react-skeleton-loader/api/Skeleton"
+    }
+  }
+}

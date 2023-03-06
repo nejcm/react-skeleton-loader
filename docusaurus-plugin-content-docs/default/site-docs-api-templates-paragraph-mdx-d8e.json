@@ -1,0 +1,25 @@
+{
+  "unversionedId": "api/templates/Paragraph",
+  "id": "api/templates/Paragraph",
+  "title": "Paragraph",
+  "description": "Specification",
+  "source": "@site/docs/api/templates/Paragraph.mdx",
+  "sourceDirName": "api/templates",
+  "slug": "/api/templates/Paragraph",
+  "permalink": "/react-skeleton-loader/api/templates/Paragraph",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "name": "Paragraph"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Form",
+    "permalink": "/react-skeleton-loader/api/templates/Form"
+  },
+  "next": {
+    "title": "Table",
+    "permalink": "/react-skeleton-loader/api/templates/Table"
+  }
+}

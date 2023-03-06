@@ -1,0 +1,78 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/react-skeleton-loader/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/react-skeleton-loader/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "api/Skeleton",
+              "path": "/react-skeleton-loader/api/Skeleton",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/templates/Card",
+              "path": "/react-skeleton-loader/api/templates/Card",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/templates/Comment",
+              "path": "/react-skeleton-loader/api/templates/Comment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/templates/Form",
+              "path": "/react-skeleton-loader/api/templates/Form",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/templates/Paragraph",
+              "path": "/react-skeleton-loader/api/templates/Paragraph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "api/templates/Table",
+              "path": "/react-skeleton-loader/api/templates/Table",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "installation",
+              "path": "/react-skeleton-loader/installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/react-skeleton-loader/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/api",
+              "path": "/react-skeleton-loader/category/api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/templates",
+              "path": "/react-skeleton-loader/category/templates",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/react-skeleton-loader/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

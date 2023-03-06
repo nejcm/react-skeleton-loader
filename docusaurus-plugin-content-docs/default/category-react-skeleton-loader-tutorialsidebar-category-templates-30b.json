@@ -1,0 +1,15 @@
+{
+  "title": "Templates",
+  "slug": "/category/templates",
+  "permalink": "/react-skeleton-loader/category/templates",
+  "navigation": {
+    "previous": {
+      "title": "Skeleton",
+      "permalink": "/react-skeleton-loader/api/Skeleton"
+    },
+    "next": {
+      "title": "Card",
+      "permalink": "/react-skeleton-loader/api/templates/Card"
+    }
+  }
+}
