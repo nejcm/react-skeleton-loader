@@ -58,7 +58,7 @@ jobs:
         run: yarn semantic-release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: 🚀 Deploy docs
         uses: JamesIves/github-pages-deploy-action@3.6.2
