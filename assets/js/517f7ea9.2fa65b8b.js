@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_nejcm_react_skeleton_loader_docs=self.webpackChunk_nejcm_react_skeleton_loader_docs||[]).push([[595],{3769:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
