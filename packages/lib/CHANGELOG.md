@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/nejcm/react-skeleton-loader/compare/v1.0.2...v1.0.3) (2023-03-06)
+
+
+### Bug Fixes
+
+* updated workflow ([5f97232](https://github.com/nejcm/react-skeleton-loader/commit/5f97232319ff3a1b63f5917a5c211f25e13765a2))
+
 ## [1.0.2](https://github.com/nejcm/react-skeleton-loader/compare/v1.0.1...v1.0.2) (2023-03-06)
 
 
