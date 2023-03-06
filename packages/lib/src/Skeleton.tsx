@@ -1,4 +1,4 @@
-import type { CSSProperties, HTMLAttributes } from 'react';
+import { CSSProperties, HTMLAttributes, useEffect } from 'react';
 import { createAnimation, cssMeasure } from './helpers';
 
 export interface BaseSkeletonProps {
@@ -97,6 +97,10 @@ const buildProps = ({
 
 export const Skeleton = ({ className, children, ...rest }: SkeletonProps) => {
   const [wrapper, inner, other] = buildProps(rest);
+  useEffect(() => {
+    createAnimation();
+  }, []);
+
   createAnimation();
   return (
     <div className={`rsl ${className || ''}`} {...other} style={wrapper}>
