@@ -1,0 +1,46 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-background-color: #fff;
+  --ifm-color-primary: #096464;
+  --ifm-color-primary-dark: #0e8181;
+  --ifm-color-primary-darker: #0d7878;
+  --ifm-color-primary-darkest: #0b6d6d;
+  --ifm-color-primary-light: #108585;
+  --ifm-color-primary-lighter: #169595;
+  --ifm-color-primary-lightest: #1aa6a6;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #096464;
+  --ifm-color-primary-dark: #0e8181;
+  --ifm-color-primary-darker: #0d7878;
+  --ifm-color-primary-darkest: #0b6d6d;
+  --ifm-color-primary-light: #108585;
+  --ifm-color-primary-lighter: #169595;
+  --ifm-color-primary-lightest: #1aa6a6;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+table.props {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+table.props tr {
+  width: 100%;
+  border-bottom: 1px solid var(--docusaurus-highlighted-code-line-bg);
+}
+table.props th,
+table.props td {
+  border: none;
+}

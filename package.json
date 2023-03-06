@@ -10,20 +10,20 @@
   },
   "scripts": {
     "format": "yarn workspaces run format",
-    "docs:dev": "yarn workspace @nejcm/react-skeleton-loader-docs dev",
+    "docs:start": "yarn workspace @nejcm/react-skeleton-loader-docs start",
     "docs:build": "yarn workspace @nejcm/react-skeleton-loader-docs build",
     "test": "yarn workspaces run test",
     "lint": "yarn workspaces run lint",
     "build": "yarn workspaces run build",
-    "semantic-release": "yarn workspaces run semantic-release",
+    "semantic-release": "yarn workspace @nejcm/react-skeleton-loader semantic-release",
     "validate": "yarn workspaces run validate",
     "setup": "yarn install && yarn validate"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "2.7.1"
+    "gh-pages": "^5.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "2.8.4"
   },
   "husky": {
     "hooks": {

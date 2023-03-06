@@ -29,7 +29,7 @@ export interface CardProps
   paragraph?: boolean;
 }
 
-export const Card: React.FC<CardProps> = ({
+export const Card = ({
   width,
   maxWidth,
   image,
@@ -41,7 +41,7 @@ export const Card: React.FC<CardProps> = ({
   fromColor,
   toColor,
   ...rest
-}) => {
+}: CardProps) => {
   const sProps = { fromColor, toColor };
   return (
     <div

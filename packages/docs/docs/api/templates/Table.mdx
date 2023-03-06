@@ -1,0 +1,39 @@
+---
+name: Table
+---
+
+import { Card } from '../../../../lib/src/templates/Card';
+import { PropsTable } from '../../../src/components/Props';
+
+# Table
+
+## Specification
+
+Table template
+
+## Usage
+
+```jsx live
+function Example() {
+  return (
+    <Table
+      rows={3}
+      cols={[
+        '#Id',
+        'Title',
+        'Description',
+        'Status',
+        <u>
+          <i>Action</i>
+        </u>,
+      ]}
+    />
+  );
+}
+```
+
+## Props
+
+Table supports all div html element props and:
+
+<PropsTable name="Table" />

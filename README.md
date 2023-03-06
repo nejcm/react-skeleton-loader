@@ -1,6 +1,6 @@
 # ⌛ React skeleton loader
 
-<blockquote>React skeleton loader that allows customization with some predefined templates.</blockquote>
+<blockquote>A lightweight React skeleton loader that allows customization with some predefined templates. </blockquote>
 <br />
 
 <!-- prettier-ignore-start -->

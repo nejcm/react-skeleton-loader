@@ -1,9 +1,10 @@
 ---
 name: Installation
 route: /installation
+sidebar_position: 2
 ---
 
-import {Hint} from '@nejcm/docz-theme-extended';
+import { Hint } from '../src/components/Hint';
 
 # Installation
 
@@ -35,13 +36,10 @@ $ npm install @nejcm/react-skeleton-loader --save
 ## Usage
 
 ```jsx
-import React from 'react';
-import {Skeleton, Card, Comment} from '@nejcm/react-skeleton-loader';
+import { Skeleton, Card, Comment } from '@nejcm/react-skeleton-loader';
 
 const YourComponent = () => {
-  return (
-    <Skeleton width={40} height={40} style={{ border: '1px solid' }} />
-  );
+  return <Skeleton width={40} height={40} style={{ border: '1px solid' }} />;
 };
 
 export default YourComponent;

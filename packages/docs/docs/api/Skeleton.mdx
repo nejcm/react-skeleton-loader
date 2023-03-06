@@ -1,0 +1,34 @@
+---
+name: Skeleton
+sidebar_position: 4
+---
+
+import { Skeleton } from '@nejcm/react-skeleton-loader';
+import { PropsTable } from '../../src/components/Props';
+
+# Skeleton
+
+## Specification
+
+Skeleton is the main component of the library and all skeleton loaders and
+templates are built with it.
+
+## Usage
+
+```jsx live
+function Example() {
+  return (
+    <>
+      <Skeleton height={30} style={{ marginBottom: 10 }} />
+      <Skeleton width={50} height={50} style={{ marginBottom: 10 }} rounded />
+      <Skeleton fromColor="#096464" toColor="#075151" width={200} height={45} />
+    </>
+  );
+}
+```
+
+## Props
+
+Skeleton supports all div html element props and:
+
+<PropsTable name="Skeleton" />

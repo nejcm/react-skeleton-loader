@@ -19,7 +19,7 @@ export interface ParagraphProps
   widths?: (string | number)[];
 }
 
-export const Paragraph: React.FC<ParagraphProps> = ({
+export const Paragraph = ({
   header,
   lines = 3,
   widths = ['100%', '100%', '75%', '35%', '50%', '85%'],
@@ -28,7 +28,7 @@ export const Paragraph: React.FC<ParagraphProps> = ({
   className,
   children,
   ...rest
-}) => {
+}: ParagraphProps) => {
   const max = widths.length || 0;
   const sProps = { fromColor, toColor };
   return (

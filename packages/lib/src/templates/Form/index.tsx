@@ -28,7 +28,7 @@ export interface FormProps
   widths?: (string | number)[];
 }
 
-export const Form: React.FC<FormProps> = ({
+export const Form = ({
   inputs = 3,
   inputHeight = 46,
   button = true,
@@ -39,7 +39,7 @@ export const Form: React.FC<FormProps> = ({
   className,
   children,
   ...rest
-}) => {
+}: FormProps) => {
   const sProps = { fromColor, toColor };
   const max = widths.length || 0;
   const height = cssMeasure(inputHeight);

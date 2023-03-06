@@ -20,7 +20,7 @@ export interface CommentProps
   lines?: number;
 }
 
-export const Comment: React.FC<CommentProps> = ({
+export const Comment = ({
   avatarSize = 45,
   avatarRounded = true,
   lines = 3,
@@ -30,7 +30,7 @@ export const Comment: React.FC<CommentProps> = ({
   toColor,
   style,
   ...rest
-}) => {
+}: CommentProps) => {
   const sProps = { fromColor, toColor };
   return (
     <div

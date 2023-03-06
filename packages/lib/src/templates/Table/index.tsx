@@ -23,7 +23,7 @@ export interface TableProps
   widths?: (string | number)[];
 }
 
-export const Table: React.FC<TableProps> = ({
+export const Table = ({
   head = true,
   rows = 3,
   cols = 4,
@@ -34,7 +34,7 @@ export const Table: React.FC<TableProps> = ({
   className,
   children,
   ...rest
-}) => {
+}: TableProps) => {
   const sProps = { fromColor, toColor };
   const max = widths.length;
   const colIter = Array.isArray(cols) ? cols : Array(cols).fill(0);

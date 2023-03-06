@@ -1,8 +1,7 @@
 node_modules/
 types/
-.docz/
 .cache/
-.docz/
+.docusaurus/
 
 # testing
 coverage/
@@ -31,5 +30,3 @@ yarn-error.log*
 # these cause more harm than good
 # when working with contributors
 package-lock.json
-yarn.lock
-/packages/react-skeleton-loader-emotion/types/index.d.ts
