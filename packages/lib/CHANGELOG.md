@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/nejcm/react-skeleton-loader/compare/v1.0.1...v1.0.2) (2023-03-06)
+
+
+### Bug Fixes
+
+* registry url ([50e6c31](https://github.com/nejcm/react-skeleton-loader/commit/50e6c31cb3fa0c2b5897fdbf9d6c2757788e1ef6))
+* release ([7755ebb](https://github.com/nejcm/react-skeleton-loader/commit/7755ebb9cadd74094f9ea338728812f76b5a5230))
+
 ## [1.0.1](https://github.com/nejcm/react-skeleton-loader/compare/v1.0.0...v1.0.1) (2023-03-06)
 
 
